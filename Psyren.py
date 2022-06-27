@@ -50,7 +50,7 @@ def sign_language():
     labelFile = file[:,-1]  #label
     angle = angleFile.astype(np.float32)
     label = labelFile.astype(np.float32)
-    knn = cv2.ml.KNearest_create() #모델 훈련시켜
+    knn = cv2.ml.KNearest_create() #모델 훈련시키기
     knn.train(angle,cv2.ml.ROW_SAMPLE,label)
     
 
@@ -117,7 +117,7 @@ def sign_language():
                 
             mp_drawing.draw_landmarks(img,res,mp_hands.HAND_CONNECTIONS)
 
-        # 화면에 텍스트 출력\
+        # 화면에 텍스트 출력
         cv2.rectangle(img=img, pt1=(2, 40), pt2=(100, 57), color=(0,0,0), thickness=-1)
         font_cv = ImageFont.truetype("/home/pi/Desktop/SCDream6.otf", 20)
         img_pil = Image.fromarray(img)
