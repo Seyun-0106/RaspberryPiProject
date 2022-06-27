@@ -39,5 +39,5 @@ https://docs.google.com/presentation/d/1uB4YrcLimNVON9Nu8xRXwjM2ZOYf4EOiuE5K7Xw9
 - 1학기 팀장(부품 구입 및 각종 서류 제출, 발표)
 - 라즈베리파이 관련 라이브러리 설치(Raspberry Pi OS, Imeager, VNC Viewer, Putty, Respeaker)
 - sendText 함수 작성
-- tkinter 코드 작성(버튼 생성, 페이지 전환)
+- tkinter GUI 코드 작성(버튼 생성, 페이지 전환)
 - openCV 설치, join_jamos코드 작성(자음, 모음을 합쳐 단어로 변환)
